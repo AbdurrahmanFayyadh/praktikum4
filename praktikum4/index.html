@@ -1,0 +1,177 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Home</title>
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.2.0/css/all.min.css">
+<style>
+    @font-face {
+        font-family: 'JFS';
+        src: url(font/JFS.ttf);
+    }
+
+    @font-face {
+        font-family: 'Jost';
+        src: url(font/Jost.ttf);
+    }
+
+    header {
+        background-image: url(foto/yow.png);
+        background-size: cover;
+        background-position: center;
+        background-attachment: fixed;
+        font-family: 'JFS';
+        font-size: 40px;
+        color: #fff;
+        text-align: center;
+        padding: 1px;
+        border: 10px;
+        border-color: #850202;
+        
+    }
+   
+    ul.nav {
+        list-style: none;
+        padding: 0;
+        display: flex;
+        justify-content: center;    
+        margin-top: -30px;
+    }
+
+    ul.nav li {
+        margin-right: 50px;
+        margin-bottom: -20px;
+    }
+
+    ul.nav li:last-child {
+        margin-right: 0;
+    }
+
+    .ikon {
+        color: white;
+        font-size: 40px;
+        cursor: none;
+        text-decoration: none;
+        transition: 0.2s;
+    }
+
+    .ikon:hover {
+        transform: scale(1.6);
+        color: lightseagreen;
+    }
+
+    body {
+        margin: 0;
+        background-image: url(foto/Fotoram2.io.png);
+        background-size: cover;
+        background-position: center;
+        background-attachment: fixed;
+    }
+
+    #h1 {
+        font-size: 50px;
+    }
+
+    #ey {
+        list-style-image: url(yow.gif);
+    }
+
+    #hem {
+        color: magenta;
+    }
+
+    aside {
+        width: 30%;
+        padding-left: 15px;
+        margin-left: 10px;
+        float: right;
+        width: 200px;
+        height: 1025px;
+        font-family: 'JFS';
+        font-size: 18px;
+        font-style: italic;
+        background-color: lightgray;
+    }
+
+    .link {
+        font-size: 20px;
+        text-decoration: none;
+        transition: 0.2s;
+        cursor: pointer;
+        color: #C86169;
+    }
+
+    .link:hover {
+        color: #600076;
+    }
+
+    section {
+        color: #fff;
+        margin-left: 10px;
+        font-size: 22px;
+        font-family: 'JFS';
+    }
+
+    article {
+        color: #fff;
+        margin-left: 10px;
+        font-size: 22px;
+        font-family: 'Jost';
+    }
+
+    footer {
+        background-color: #333;
+        color: #fff;
+        text-align: center;
+        font-family: 'Jost';
+        padding: 10px;
+    }
+</style>
+</head>
+<body>
+    <header>
+    <h1>The Importance of Life</h1>
+    <ul class="nav">
+        <li><a href="#"><i class="fas fa-home ikon"></i></a></li>
+        <li><a href="https://instagram.com/fayyadh_khoiry?igshid=NTc4MTIwNjQ2YQ=="><i class="fab fa-instagram ikon"></i></a></li>
+        <li><a href="https://github.com/AbdurrahmanFayyadh"><i class="fab fa-github ikon"></i></a></li>
+        <li><a href="www.linkedin.com/in/abdurrahman-fayyadh-370592293"><i class="fab fa-linkedin-in ikon"></i></a></li>
+        <li><a href="https://wa.me/6285714858018?text=Hi%20Fayad"><i class="fas fa-user ikon"></i></a></li>
+    </ul>
+    </header>
+    <aside>
+        <h2>Practical Assignments :</h2>
+        <ul id="ey">
+            <li><a href="/praktikum1/CV.html" class="link"><b>Praktikum1</b></a></li>
+            <li><a href="/praktikum3/Tugas3.1.html" class="link"><b>Praktikum3.1</b></a></li>
+            <li><a href="/praktikum3/Tugas3.2.html" class="link"><b>Praktikum3.2</b></a></li>
+            <li><a href="/praktikum4/Tugas4.1.html" class="link"><b>Praktikum4</b></a></li>
+        </ul>
+        <p>"Nothing in the world can take the place of <b>Persistence</b>. Talent will not; nothing is more common than unsuccessful men with talent. Genius will not; unrewarded genius is almost a proverb. Education will not; the world is full of educated derelicts. The slogan 'Press On!' has solved and always will solve the problems of the human race."</p>
+        <p>“Success is a <b>journey</b>, not a destination.”</p>
+        <p>“Your success is determined by your <b>mindset</b>, not your circumstances.”</p>
+        <p>“<b>Mental toughness</b> is a lifestyle.”</p>
+        <p>“<b>Pain</b> unlocks a secret doorway in the mind, one that leads to both peak performance, and beautiful silence.”</p>
+        <p>“<b>Don't wait</b> for opportunities, <b>create</b> them.”</p>
+        <p>"<b>Focus</b> on what's <b>best</b> for yourself."</p>
+    </aside>
+    <section>
+        <h1 id="h1">Welcome to My Page!</h1>
+        <p>First of all, let us praise to The Almighty Allah SWT because of His blessings we are still alive as you read my first web page.</p>
+        <p>Secondly, may peace be upon to our Prophet Muhammad SAW who has guided us from the darkness era to the brightness era.</p>
+        <p>If you look at this paragraph, all of this is part of an HTML structure called a 'section.' On this page, I have provided you with all the parts of a standard HTML structure, such as 'header,' 'article,' and 'footer,' with their positions as in the sample, except for 'nav.' I think it would be better and easier if the 'nav' tag were nested within the 'header' tag for a web page. Furthermore, the text and the menu on the right side of this paragraph are referred to as 'aside'.</p>
+    </section>
+    <article>
+        <h1>Article</h1>
+        <p>Life, consisting of both matter and energy, is a precious gift bestowed upon all of us. To demonstrate our appreciation for life, we should actively participate in the myriad of celebrations that surround us during our time on Earth. Every moment we experience, whether it's marked by happiness, sorrow, victory, or defeat, brings us one step closer to the culmination of our existence. As humans, we often neglect to contemplate the circle of life. Instead, we fixate on our pursuit of pleasure and happiness, yearning for an everlasting life. Why do we fail to comprehend the straightforward wisdom of nature, which is to find happiness in every moment, making that very moment a celebration of being alive? Life is not solely a sequence of experiences, milestones, events, happenings, or accomplishments; it is also a collection of moments. However, we mustn't forget that we are all born with a finite amount of time.</p>
+        <p>Ultimately, the goal of life is to reconnect with nature. <em>(Edited. Source : <a href="https://www.cram.com/essay/What-Is-The-Importance-Of-Life/PK4DKCVSZ7BWW" class="link">CRAM.com</a>).</em></p>
+        <p>Alright, now, let me introduce myself. My name is Abdurrahman fayyadh Khairy and you can call me Fayad. I was born in Bekasi. I live in Jakarta because my parents have jobs and they work there. I'm a college student at STT Nurul Fikri.</p>
+        <p>And that's all from me. Thanks for reading<span id="hem">❤</span></p>
+    </article>
+</body>
+<footer>
+    <p>Copyright &copy; <em>2023 AFK. All rights reserved</em></p>
+</footer>
+</html>

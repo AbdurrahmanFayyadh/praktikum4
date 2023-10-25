@@ -1,0 +1,130 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>praktikum4</title>
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.2.0/css/all.min.css">
+    <style>
+         @font-face {
+            font-family: 'JFS';
+            src: url(font/JFS.ttf);
+         }
+
+         @font-face {
+            font-family: 'acme';
+            src: url(font/acme.ttf);
+         }
+
+         body {
+            margin: 30px;
+            color: black;
+            background-color: lightgrey;
+         }
+        
+        
+         header {
+            display: flex;
+         }
+
+         section {
+            font-family: 'JFS';
+            font-size: x-large;
+            font-weight: 500;
+         }
+
+         footer {
+            display: flex;
+         }
+
+         .kolom1 {
+            width: 33.3%;
+            text-align: center;
+         }
+
+         .kolom2 {
+            width: 33.3%;
+            font-family: 'acme';
+            font-size: x-large;
+            margin-top: -30px;
+         }
+
+         #lagi {
+            width: 33.3%;
+            text-align: center;
+            margin-top: 30px;
+            margin-right: 25px;
+            font-family: 'acme';
+            font-size: x-large;
+         }
+
+         .link {
+            text-decoration: none;
+            color: #008080;
+            transition: 0.2s;
+            cursor: pointer;
+            
+         }
+
+         .link:hover {
+            color: #800000;
+         }
+
+         .link2 {
+            text-decoration: none;
+            color: #1ABC9C;
+            background-color: #212F3D;
+            padding: 5px 10px;
+            border-radius: 5px;
+            transition: background-color 0.3s, color 0.3s;
+            cursor: none;
+         }
+
+         .link2:hover {
+            background-color: #850202;
+            color: #fff;
+         }
+    </style>
+</head>
+<body>
+        <header>
+            <div class="kolom1">
+                <img src="foto/foto(2).png" alt="poto" width="200" height="250" style=" cursor: not-allowed;">
+            </div>
+            <div class="kolom2">
+                <h1>Profil :</h1><ul style="list-style-type: none; margin-left: -40px;">
+                <li>Nama   : Abdurrahman Fayyadh</li>
+                <li>Alamat : Jakarta Timur</li>
+                <li>Rombel : SI07</li>
+                <li>Kontak : <a href="https://wa.me/6285714858018?text=Hi%20Fayad" class="link">Whatsapp</a>, <a href="https://instagram.com/fayyadh_khoiry?igshid=NTc4MTIwNjQ2YQ==" class="link">Instagram</a></li></ul>
+            </div>
+            <div class="kolom2">
+                <h1>Kategori :</h1>
+                <ul>
+                    <li><a href="/xampp/htdocs/fayad/semester1/semester1-pw/praktikum1/CV.html" class="link">Praktikum 1</a></li>
+                    <li><a href="/xampp/htdocs/fayad/semester1/semester1-pw/praktikum3/Tugas3.1.html" class="link">Praktikum3.1</a></li>
+                    <li><a href="/xampp/htdocs/fayad/semester1/semester1-pw/praktikum3/Tugas3.2.html" class="link">Praktikum3.2</a></li>
+                </ul>
+            </div>
+        </header>
+        <section>
+            <p>Hi, perkenalkan nama saya Abdurrahman Fayyadh Khairy. Saya lahir di Bekasi pada bulan Juni yang tepatnya pada hari Minggu, tanggal 12 Juni tahun 2005. Saya tinggal di Jakarta Timur kelurahan Lubang Buaya yang lebih detailnya dapat Anda lihat di bagian halaman yang telah saya paparkan <i class="fas fa-arrow-down"></i></p>
+        </section>
+        <footer>
+            <div class="kolom1">
+               <iframe width="400" height="243" src="https://www.youtube.com/embed/9Zj0JOHJR-s?si=qO44CDsVUeBNKYSB" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" allowfullscreen></iframe>
+            </div>
+            <div id="lagi">
+                <ul style="list-style-type: none;">
+                    <li><a href="pdf/CV.pdf" class="link2">Praktikum1-pdf</a></li><br>
+                    <li><a href="pdf/Tugas3.1.pdf" class="link2">Praktikum3.1-pdf</a></li><br>
+                    <li><a href="pdf/Tugas3.2.pdf" class="link2">Praktikum3.2-pdf</a></li>
+                </ul>
+            </div>
+            <div class="kolom1">
+                <iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3965.7541861942836!2d106.9025679526872!3d-6.295999937404378!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x2e69f2a826937581%3A0xfe66e53d88a04da4!2sJl.%20Adil%20II%20No.66%2C%20RT.3%2FRW.6%2C%20Lubang%20Buaya%2C%20Kec.%20Cipayung%2C%20Kota%20Jakarta%20Timur%2C%20Daerah%20Khusus%20Ibukota%20Jakarta%2013810!5e0!3m2!1sid!2sid!4v1697785397261!5m2!1sid!2sid" width="400" height="243" style="border:0;" allowfullscreen="" loading="lazy" referrerpolicy="no-referrer-when-downgrade"></iframe>
+            </div>
+        </footer>
+</body>
+</html>
